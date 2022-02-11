@@ -1166,25 +1166,58 @@ footer > .wrapper {
   height: 912px;
   background-image: url('assets/Map.png');
 }
-svg {
-  /* fill: #F58021; */
-}
 
-svg > g > path:nth-child(2) {
-  stroke: #20113D;
-  stroke-width: 0;
-}
-svg:hover {
+path:hover {
+  fill: white;
   stroke: white;
   stroke-width: 3;
   stroke-miterlimit: 10;
   stroke-linejoin: round;
 }
-stroke="white" 
-stroke-width="3" 
-stroke-miterlimit="10" 
-stroke-linejoin="round"
 
-
-/* filter="url(#filter0_d)" */
-
+.animal {
+  width: 85%;
+  height: 65%;
+  padding-bottom: 10%;
+  position: relative;
+}
+.west-map {
+  position: absolute;
+  top: 7%;
+  left: 2%;
+}
+.krokod-map {
+  position: absolute;
+  top: 12%;
+  left: 13.5%;
+}
+.lion-map {
+  position: absolute;
+  left: 38%;
+  top: 20%;
+}
+.gorila-map {
+  position: absolute;
+  left: 47%;
+  top: 24%;
+}
+.lemur-map {
+  position: absolute;
+  top: 45%;
+  right: 32.5%;
+}
+.panda-map {
+  position: absolute;
+  top: 1%;
+  right: 19%;
+}
+.tiger-map {
+  position: absolute;
+  top: 29%;
+  right: 14%;
+}
+.koala-map {
+  position: absolute;
+  top: 49%;
+  right: 3%;
+}
