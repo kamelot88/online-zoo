@@ -42,38 +42,23 @@
                     <p>Whether you have a question, or would like to say hello, we're happy to hear from you. Please use the form to send us a message and we'll get back to you as soon as we can. Whether you have a question, or would like to say hello, we're happy to hear from you. Please use the form to send us a message and we'll get back to you as soon as we can.</p>
                 </div>
                 <div class="right-block">
-                    <form class="form" action="">
-                        <fieldset class="field">
-                          <label for="default-text">Some input[type=text]</label>
-                          <input type="text" id="default-text" class="text" />
-                        </fieldset>
-                        <fieldset class="field choice">
-                          <fieldset>
-                            <input type="radio" id="default-radio" checked="checked" />
-                            <label for="default-radio">Some input[type=radio]</label>
-                          </fieldset>
-                          <fieldset>
-                            <input type="checkbox" id="default-checkbox" checked="checked" />
-                            <label for="default-checkbox">Some input[type=checkbox]</label>
-                          </fieldset>
-                        </fieldset>
-                        <fieldset class="field">
-                          <label for="default-textarea">Some textarea</label>
-                          <textarea class="text" rows="10" cols="40" id="default-textarea"></textarea>
-                        </fieldset>
-                        <fieldset class="field">
-                          <label for="default-select">Some select</label>
-                          <select id="default-select">
-                            <option>variant 1</option>
-                            <option>variant 2</option>
-                            <option>variant 3</option>
-                          </select>
-                        </fieldset>
-                        <fieldset class="field submit">
-                          <input type="submit" value="Send" />
-                          <input type="reset" value="Clear" />
-                        </fieldset>
-                      </form>
+                    <div class="container main_flex__nowrap">
+                        <div class="form">
+                          <form action="URL" method="post" class="message-form main_flex_column">
+                            <h4><span>*</span> Your Name</h4>  
+                            <input type="text" name="name" placeholder="First and last name" required />
+                            <h4><span>*</span> Your Email Address </h4>  
+                            <input type="email" name="email" placeholder="Enter your email" required />
+                            <h4><span>*</span> Subject</h4>
+                            <input type="text" placeholder="Subject" />
+                            <h4><span>*</span> Message</h4>
+                            <textarea placeholder="Enter your message" class="description-form"></textarea>
+                            <button type="submit"
+                              class="main_flex flex__jcontent_center flex__align-items_center flex__align-content_center">
+                              send message<img src="assets/arrow-right-white2.svg" alt="">
+                            </button>
+                          </form>
+                      </div>
                 </div>
             </div>
             

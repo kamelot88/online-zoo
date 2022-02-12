@@ -965,7 +965,7 @@ footer > .wrapper {
 .btn-our {
   width: 359px;
   height: 74px;
-  padding: 26px 77.36px;
+  padding: 26px 75.36px;
   font-weight: 600;
   font-size: 18px;
   line-height: 22px;
@@ -1285,17 +1285,19 @@ footer > .wrapper {
   text-transform: uppercase;
   color: #00A092;
   margin-bottom: 50px;
+  position: relative;
+  left: 0;
 }
 .wrap-zoos > .link-pay-donate {
   position: absolute;
-  right: 240px;
+  right: 500px;
   top: 45px;
 }
 .youtube-player {
   width: 1400px;
   height: 787px;
   position: relative;
-  left: 260px;
+  left: 480px;
   margin-bottom: 100px;
 }
 .zoos-title-video {
@@ -1425,4 +1427,56 @@ footer > .wrapper {
 #contact section {
   margin-bottom: 150px;
   width: 100%;
+}
+#contact section .right-block form input, #contact section .right-block form textarea {
+  width: 680px;
+  height: 60px;
+  border: 1px solid #000000;
+  box-sizing: border-box;
+  border-radius: 5px;
+  margin-bottom: 30px;
+}
+#contact section .right-block form textarea {
+  height: 200px;
+  margin-bottom: 67px;
+}
+#contact section .right-block form input::placeholder, #contact section .right-block form textarea::placeholder {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 150%;
+  color: #969696;
+  padding: 17px 20px;
+}
+#contact section .right-block form h4 {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 150%;
+  color: #000000;
+  margin-bottom: 10px;
+}
+#contact section .right-block form h4 span {
+  color: #00A092;
+}
+#contact section .right-block form button {
+  padding: 26px 45px;
+  width: 359px;
+  height: 74px;
+  background: #00A092;
+  border-radius: 5px;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 22px;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  border: none;
+}
+#contact section .right-block form button img {
+  margin-bottom: 0;
+  margin-left: 10px;
 }
