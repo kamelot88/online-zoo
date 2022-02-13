@@ -1,0 +1,121 @@
+@media (max-width: 1400px) {
+    .wrapper {
+        width: 90%;
+    }
+    .images-welcome, .images-work {
+        width: 55%;
+        height: auto;
+    }
+    .content-pay-donate {
+        margin-right: 0px;
+        width: 40%;
+    }
+    .text-pay-donate {
+        width: 100%;
+    }
+    .photo-pay-donate {
+        width: 50%;
+        margin-right: 5px;
+    }
+    .donate-block-1 {
+        align-items: center;
+    }
+    .donate-block-1 > .photo-pay-donate {
+        background-repeat: no-repeat;
+    }
+    .donate {
+        width: 260px;
+        height: 68px;
+        padding-left: 25px;
+        padding-right: 25px;
+    }
+    .foot-logo {
+        gap: 30px;
+    }
+}
+
+@media (max-width: 1200px) {
+.welcome {
+    -webkit-flex-flow: column-reverse wrap;
+    flex-flow: column-reverse wrap;
+    align-items: flex-start;
+    -webkit-align-items: flex-start;
+    margin-bottom: 80px;
+}
+.work {
+    -webkit-flex-flow: column wrap;
+    flex-flow: column wrap;
+    align-items: flex-end;
+    -webkit-align-items: flex-end;
+}
+.title-content-work {
+    width: 60%;
+}
+.images-welcome, .images-work {
+    margin-bottom: 40px;
+}
+.images-welcome, .images-work {
+    width: 60%;
+}
+.content-donation {
+    width: 60%;
+}
+.title-text-donation, .content-text-donation {
+    max-width: 100%;
+}
+.first-row, .second-row {
+    gap: 15px;
+}
+#what-our-users-think .wrapper {
+    -webkit-flex-flow: row wrap;
+      flex-flow: row wrap;
+      position: relative;
+      padding-bottom: 100px;
+}
+.text-content-what-our {
+    margin-bottom: 50px;
+}
+.content-what-our {
+    
+}
+.btn-our {
+    position: absolute;
+    bottom: 0px;
+}
+.arrows-nav-what-our {
+    align-self: flex-end;
+    margin-right: 120px;
+}
+#Care-fro-animals-love .wrapper {
+    align-items: flex-start;
+    -webkit-align-items: flex-start;
+}
+.foot-logo img {
+    height: 30px;
+}
+.foot-logo .rs-sc-logo {
+    height: 35px;
+}
+.nav-menu-foot ul {
+    gap: 30px;
+}
+
+
+
+}
+
+@media (max-width: 1020px) {
+
+}
+@media (min-width: 375px) and (max-width: 767px) {}
+
+
+
+@media (min-width: 320px) and (max-width: 374px) {}
+
+
+
+
+
+
+}
