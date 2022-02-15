@@ -315,7 +315,9 @@
     }
     /* Reset_end*/
 
-
+    .burger {
+      display: none;
+    }
 
     .wrap {
       width: 100%;

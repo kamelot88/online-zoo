@@ -75,9 +75,6 @@
 .text-content-what-our {
     margin-bottom: 50px;
 }
-.content-what-our {
-    
-}
 .btn-our {
     position: absolute;
     bottom: 0px;
@@ -99,14 +96,388 @@
 .nav-menu-foot ul {
     gap: 30px;
 }
-
-
-
 }
 
 @media (max-width: 1020px) {
-
+.navigation {
+    gap: 1px;
 }
+.nav-icons img {
+    width: 30px;
+}
+.logo img {
+    width: 80px;
+}
+.nav-menu ul li a {
+    font-size: 16px;
+    line-height: 100%;
+}
+#head .wrapper {
+    -webkit-flex-flow: row nowrap;
+    flex-flow: row nowrap;
+}
+.nav-menu > ul {
+    gap: 25px;
+}
+.nav-icons > ul {
+    gap: 15px;
+}
+.nav-menu {
+    margin-right: 30px;
+}
+.images-welcome, .images-work {
+    width: 70%;
+}
+.content-donation {
+    width: 50%;
+}
+.title-text-donation {
+    font-weight: 400;
+    font-size: 38px;
+}
+.text-content-meet-some, .title-content-meet-some {
+    max-width: 100%;
+}
+.content-pay-donate {
+    margin-right: 0px;
+    width: 45%;
+}
+.text-pay-donate {
+    font-size: 17px;
+}
+.arrows-nav-what-our {
+    margin-right: 415px;
+}
+.btn-donate {
+    justify-content: flex-start;
+    align-items: flex-start
+}
+.link-choose-favor {
+    margin: 0 0 100px 0;
+}
+.foot-logo img {
+    height: 25px;
+}
+.foot-logo .rs-sc-logo {
+    height: 30px;
+}
+.nav-menu-foot ul li a {
+    font-size: 16px;
+}
+.nav-menu-foot ul {
+    gap: 20px;
+}
+.donate {
+    width: 150px;
+    height: 55px;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 13px;
+}
+.foot-logo {
+    gap: 25px;
+    margin-right: 10px;
+}
+.nav-menu-foot {
+    margin-right: 10px;
+}
+.donate img {
+    width: 18.28px;
+    height: 15px;
+}
+.top-panel {
+    margin-bottom: 50px;
+}
+.touch-animal {
+    position: relative;
+    /* left: -5%; */
+    max-width: 100%;
+}
+}
+
+@media (max-width: 768px) {
+.nav-icons {
+    display: none;
+}
+#favorite-animal-online h2 {
+    width: 100%;
+    height: auto;
+    font-size: 72px;
+}
+#favorite-animal-online {
+    padding-bottom: 130px;
+    background-size: 250%;
+    background-position: 85% 75%;
+}
+#How-it-works {
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+.title-content-work {
+    width: 80%;
+    font-size: 50px;
+}
+.content-donation {
+    width: 100%;
+    margin-bottom: 30px;
+}
+.title-content-meet-some {
+    font-size: 50px;
+}
+.text-content-meet-some {
+    height: auto;
+}
+.text-content-animal {
+    height: auto;
+    width: 260px;
+}
+.photo-animal {
+    height: 300px;
+}
+.content-animal {
+    padding: 20px 20px 35px 20px;
+    background: #20113D;
+    border-radius: 0 0 5px 5px;
+}
+.name-animal {
+    font-size: 20px;
+}
+.text-content-animal {
+    margin-bottom: 25px;
+    font-size: 16px;
+}
+.title-content-animal {
+    font-weight:400;
+    font-size: 22px;
+}
+#meet-some .animal-card {
+    height: auto;
+}
+.link-camera > img {
+    width: 22.35px;
+    height: 22.78px;
+}
+#meet-some {
+    padding-top: 120px;
+    padding-bottom: 80px;
+}
+.content-pay-donate {
+    width: 100%;
+}
+.photo-pay-donate {
+    width: 100%;
+    margin-right: 0px;
+}
+.donate-block-2 > .photo-pay-donate, .donate-block-3 > .photo-pay-donate  {
+    background-repeat: no-repeat;
+}
+.text-content-tesmodials {
+    width: 340px;
+    margin-bottom: 30px;
+}
+.row-tesmodials > .testimonials-card {
+    padding: 34px 40px 25px 40px;
+}
+.testimonials-cards .row-tesmodials:nth-child(2) .testimonials-card {
+    padding: 34px 40px 25px 40px;
+}
+.title-animals-love {
+    width: 100%;
+    font-size: 50px;
+}
+.photo-animal-donate {
+    width: 350px;
+    height: 350px;
+}
+.content-animal-donate {
+    width: 350px;
+    height: 255px;
+}
+.text-content-animal-donate {
+    width: 100%;
+}
+.photo-animal-donate {
+    background-size: auto;
+}
+.content-animal-donate {
+    padding: 30px 25px 30px 25px;
+}
+.touch-animal {
+    height: 500px;
+}
+#Care-fro-animals-love {
+    padding-top: 120px;
+    padding-bottom: 90px;
+}
+.top-panel {
+    -webkit-flex-flow: row wrap;
+    flex-flow: row wrap;
+    gap: 30px;
+}
+.bottom-panel {
+    justify-content: center;
+}
+.copiryte {
+    margin-bottom: 30px;
+}
+}
+
+@media (max-width: 640px) {
+#head {
+    overflow: visible;
+}
+.navigation {
+    position: relative;
+}
+.nav-menu {
+    position: absolute;
+    z-index: 20;
+    right: -19px;
+    top: 55px;
+    margin-right: 0;
+    background: #20113D;
+    display: none;
+}
+.nav-menu > ul {
+    height: 350px;
+    width: 250px;
+    -webkit-flex-flow: column wrap;
+    flex-flow: column wrap;
+    justify-content: space-around;
+    -webkit-justify-content: space-around;
+}
+.nav-menu > ul > li {
+    text-align: center;
+}
+.nav-menu > ul > li > a {
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+.burger {
+    display: flex;
+    position: absolute;
+    bottom: -3vh;
+    right: 5vw;
+    width: 40px;
+    height: 3vh;
+    z-index: 21;
+}
+.burger-line {
+    background: #000000;
+    height: 3px;
+    border-radius: 5px;
+    transition: all ease .6s;
+}
+#favorite-animal-online h2 {
+    font-size: 60px;
+}
+#favorite-animal-online {
+    padding-top: 60px;
+    background-size: 200%;
+    background-position: 80% 35%;
+    padding-bottom: 90px;
+}
+.text-favorite {
+    width: 100%;
+    height: auto;
+}
+#How-it-works {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.images-welcome, .images-work {
+    width: 100%;
+}
+.title-content-work {
+    width: 80%;
+    font-size: 35px;
+    margin-bottom: 35px;
+}
+.text-content-work {
+    width: 100%;
+    height: auto;
+    font-size: 17px;
+    line-height: 150%;
+    color: #000000;
+}
+.title-text-donation {
+    font-size: 36px;
+}
+.title-content-meet-some {
+    font-size: 46px;
+    padding: 0;
+}
+.text-content-meet-some {
+    margin-bottom: 70px;
+    font-size: 24px;
+}
+.link-choose-favor {
+    padding: 24px 24px 24px 24px;
+    margin-bottom: 50px;
+    width: 310px;
+    font-size: 16px;
+}
+.title-pay-and-feed {
+    margin-bottom: 70px;
+    font-size: 50px;
+}
+.photo-pay-donate {
+    height: 320px;
+}
+#what-our-users-think {
+    padding-top: 80px;
+}
+.content-what-our {
+    margin-right: 0px;
+}
+.title-content-what-our {
+    width: 100%;
+    font-size: 46px;
+}
+.text-content-what-our {
+    width: 100%;
+    font-size: 24px;
+}
+.arrows-nav-what-our {
+    margin-right: 535px;
+}
+.title-animals-love {
+    font-size: 46px;
+}
+.btn-our {
+    width: 319px;
+    padding: 26px 45.36px;
+    border: 1px solid #ffffff;
+}
+.text-content-animals-love {
+    width: 100%;
+}
+.donate-card-big {
+    display: none;
+}
+.touch-animal {
+    height: 340px;
+}
+.top-panel {
+    justify-content: center;
+}
+.copiryte-text {
+    font-size: 11px;
+}
+.foot-logo {
+    gap: 50px;
+}
+.donate {
+    width: 130px;
+    height: 50px;
+    padding-left: 7px;
+    padding-right: 7px;
+    font-size: 10px;
+}
+}
+
+
+
 @media (min-width: 375px) and (max-width: 767px) {}
 
 
@@ -118,4 +489,3 @@
 
 
 
-}
